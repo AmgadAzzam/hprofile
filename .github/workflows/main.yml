@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   test-runner:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps: 
       - name: Check runner info
         run: uname -a
