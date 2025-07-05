@@ -15,3 +15,6 @@ jobs:
 
       - name: list files
         run: ls -lah
+
+      - name: bye message
+        run: echo "Bye Bye"
